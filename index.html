@@ -1,0 +1,18 @@
+<html>
+<head></head>
+<body>
+<img src="C:\Users\admin\Downloads\8.jpg" onclick="changeImage()" Id="Image1" width="200"height="200">
+<h2>click on image for enter/exit the house</h2>
+<script>
+function changeImage()
+{
+var image=document.getElementById('Image1');
+if(image.src.match("bulbon")){
+image.src="C:\Users\admin\Downloads\8.jpg";
+}
+else{
+image.src="C:\Users\admin\Desktop\kemere.jpg";
+}
+}</script>
+</body>
+</html>
